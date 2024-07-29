@@ -32,23 +32,23 @@ const ContactUsPage = () => {
         title="Contact Us"
       />
       <div className="mx-auto mt-12 w-full max-w-screen-xl">
-        <div className="flex items-center justify-center gap-x-4">
+        <div className="flex flex-wrap items-center justify-center gap-4 p-2">
           {contactData.map((c, i) => (
             <LinkBox key={i} dis={c.dis} icon={c.icon} name={c.name} />
           ))}
         </div>
-        <div className="mt-12 w-full">
-          <div className="grid w-full grid-cols-5 rounded-2xl bg-white">
-            <div className="col-span-2 w-full rounded-l-2xl">
+        <div className="mt-12 w-full p-2">
+          <div className="grid w-full rounded-2xl bg-white md:grid-cols-5">
+            <div className="w-full rounded-l-2xl md:col-span-2">
               <img
                 src="/images/other/contact-form-side.png"
                 className="h-full w-full rounded-l-2xl object-cover"
               />
             </div>
-            <div className="col-span-3 w-full rounded-r-2xl pl-12">
-              <div className="flex min-h-[800px] flex-col items-start justify-center bg-[url('/images/other/contact.png')] bg-contain bg-bottom bg-no-repeat">
+            <div className="w-full rounded-r-2xl md:col-span-3 md:pl-12">
+              <div className="flex min-h-[500px] flex-col items-start justify-center bg-[url('/images/other/contact.png')] bg-contain bg-bottom bg-no-repeat px-4 md:min-h-[800px]">
                 <SmallHeader text="Get to Contact us" />
-                <h2 className="my-2 max-w-[80%] text-left text-5xl font-medium">
+                <h2 className="my-2 max-w-[80%] text-left text-3xl font-medium md:text-5xl">
                   Have a any Questions? Get in Touch!
                 </h2>
                 <ContactForm />

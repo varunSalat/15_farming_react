@@ -25,13 +25,13 @@ const OurCertificatesSection = () => {
     <section className="mx-auto my-16 max-w-[1400px] p-4">
       <div>
         <SmallHeader text="Our Pride" />
-        <h1 className="mt-6 text-5xl font-medium text-black-2">
+        <h1 className="mt-6 text-3xl font-medium text-black-2 md:text-5xl">
           Certificates We are Honoured
         </h1>
       </div>
       <div className="relative mx-auto mt-20">
         <Swiper
-          slidesPerView={3}
+          slidesPerView={1}
           spaceBetween={30}
           loop={true}
           freeMode={true}
@@ -39,12 +39,24 @@ const OurCertificatesSection = () => {
             delay: 3000, // 3 seconds delay between slides
             disableOnInteraction: false, // Continue autoplay after interactions
           }}
+          breakpoints={{
+            // when window width is >= 600px
+            600: {
+              slidesPerView: 2, // Show only 2 slide
+              spaceBetween: 10, // Adjust space between slides if needed
+            },
+            // when window width is >= 1024px
+            1024: {
+              slidesPerView: 3, // Show 3 slides
+              spaceBetween: 20, // Adjust space between slides if needed
+            },
+          }}
           modules={[FreeMode, Pagination, Navigation]} // Include Navigation here
           className="mySwiper"
         >
           {certiList.map((img, i) => (
             <SwiperSlide key={i}>
-              <div className="testi-card relative h-[370px] w-[400px] bg-transparent">
+              <div className="testi-card relative h-[510px] bg-transparent sm:h-[370px] sm:w-[400px]">
                 <div className="h-full w-full p-8">
                   <figure className="grid h-full w-full place-items-center p-10">
                     <img src={img} alt="img" />

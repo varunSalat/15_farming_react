@@ -24,6 +24,7 @@ const Navbar = () => {
                 <Link
                   className="text-sm font-semibold uppercase transition-three-all hover:text-primary"
                   to={link.link}
+                  onClick={() => setIsNavOpen(false)}
                 >
                   {link.name}
                 </Link>

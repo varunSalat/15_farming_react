@@ -2,8 +2,8 @@ import { FenceIcon, ShieldCheckIcon } from "lucide-react";
 import { SmallHeader } from "../general";
 const WhoWeAreSection = () => {
   return (
-    <section className="mx-auto my-16 flex max-w-[1400px] items-center justify-between gap-4 p-4">
-      <div className="relative w-1/2 max-w-[600px] overflow-hidden rounded-xl bg-danger">
+    <section className="mx-auto my-16 flex max-w-[1400px] flex-col items-center justify-between gap-4 p-4 lg:flex-row">
+      <div className="relative w-full max-w-[600px] overflow-hidden rounded-xl bg-danger lg:w-1/2">
         <img
           src="https://agrimo-demo.pbminfotech.com/html-demo/images/homepage-1/bg/img-01.jpg"
           alt=""
@@ -18,7 +18,7 @@ const WhoWeAreSection = () => {
         </div>
       </div>
 
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2">
         <SmallHeader text="Who We Are" />
         <div>
           <h1 className="my-4 text-4xl font-medium text-black-2">

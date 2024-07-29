@@ -431,3 +431,18 @@
   );
   z-index: -1;
 }
+.timeline-text {
+  line-height: 64px;
+  margin-bottom: 0;
+  color: transparent;
+  overflow: visible !important;
+  text-shadow:
+    1px 1px 0 rgba(64, 74, 61, 0.5),
+    -1px -1px 0 rgba(64, 74, 61, 0.5),
+    1px -1px 0 rgba(64, 74, 61, 0.5),
+    -1px 1px 0 rgba(64, 74, 61, 0.5),
+    1px 1px 0 rgba(64, 74, 61, 0.5);
+  -webkit-text-fill-color: #f8f7f0;
+  -webkit-text-stroke-width: 0;
+  color: transparent;
+}

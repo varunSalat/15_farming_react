@@ -30,7 +30,7 @@ const wwoList = [
 
 const HeroWwoSection = () => {
   return (
-    <section className="flex gap-4 p-6">
+    <section className="grid grid-cols-1 justify-items-center gap-4 p-2 md:grid-cols-2 md:p-6 2xl:grid-cols-4">
       {wwoList.map((wwo, i) => (
         <LinkBox key={i} dis={wwo.dis} icon={wwo.icon} name={wwo.name} />
       ))}

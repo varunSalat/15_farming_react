@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const LinkBox = ({ icon: Icon, name, dis }) => {
   return (
-    <div className="curv group relative min-h-[210px] w-[min(460px,100%)] cursor-pointer justify-between rounded-xl p-6 px-8 transition-three-all before:shadow-sm hover:-translate-y-3">
+    <div className="curv group relative min-h-[210px] w-[min(450px,100%)] cursor-pointer justify-between rounded-xl p-6 px-8 transition-three-all before:shadow-sm hover:-translate-y-3">
       <div className="flex items-center gap-4 border-b border-black-5 pb-4">
         <div className="grid h-14 w-14 place-items-center rounded-full bg-primary text-black-2">
           {Icon}

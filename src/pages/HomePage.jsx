@@ -17,19 +17,19 @@ const HomePage = () => {
       {/* What we offer section */}
       <HeroWwoSection />
       {/* Who We Are */}
-      {/* <WhoWeAreSection /> */}
+      <WhoWeAreSection />
       {/* What we sell marque effect */}
-      {/* <HeroWhatWeSell /> */}
+      <HeroWhatWeSell />
       {/* OUR SERVICES */}
-      {/* <HeroOurServicesSection /> */}
+      <HeroOurServicesSection />
       {/* Grow Naturally */}
-      {/* <GrowNaturallySection /> */}
+      <GrowNaturallySection />
       {/* Testimonial Section */}
-      {/* <TestimonialsSection /> */}
+      <TestimonialsSection />
       {/* Healthy Life */}
-      {/* <HealthyLifeSection /> */}
+      <HealthyLifeSection />
       {/* Our Certificates */}
-      {/* <OurCertificatesSection /> */}
+      <OurCertificatesSection />
     </main>
   );
 };

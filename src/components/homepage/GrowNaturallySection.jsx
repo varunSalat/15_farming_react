@@ -7,12 +7,12 @@ const GrowNaturallySection = () => {
     <section className="mx-auto my-16 max-w-[1400px] p-4">
       <div className="flex w-full flex-col items-center justify-between gap-6">
         <SmallHeader text="Grow Naturally" />
-        <h1 className="text-center text-5xl font-medium text-black-2">
+        <h1 className="text-center text-3xl font-medium text-black-2 md:text-5xl">
           Choose What&apos;s Perfect <br /> For Your Field
         </h1>
       </div>
 
-      <div className="mt-16 flex items-center justify-center gap-4">
+      <div className="mt-16 flex flex-col items-center justify-center gap-4 md:flex-row">
         {/* Left Div */}
         <div>
           <div className="flex max-w-[400px] items-center gap-4">
@@ -45,7 +45,7 @@ const GrowNaturallySection = () => {
           </div>
         </div>
         {/* Center Div */}
-        <figure>
+        <figure className="hidden md:block">
           <img src={cornImg} alt="corn-img" />
         </figure>
         {/* Right Div */}

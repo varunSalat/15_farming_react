@@ -28,7 +28,7 @@ const Footer = () => {
   ];
   return (
     <footer className="bg-white py-12">
-      <div className="mx-auto flex w-full max-w-[1400px] justify-between gap-12 px-4">
+      <div className="mx-auto flex w-full max-w-[1400px] flex-col justify-between gap-12 px-4 lg:flex-row">
         <div className="max-w-[350px]">
           <figure className="w-[120px]">
             <img
