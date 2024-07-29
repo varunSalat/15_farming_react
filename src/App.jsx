@@ -8,6 +8,8 @@ import Layout from "./layout/Layout";
 import HomePage from "./pages/HomePage";
 import ContactUsPage from "./pages/ContactUsPage";
 import AboutUsPage from "./pages/AboutUsPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
+import TermsConditionsPage from "./pages/TermsConditionsPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +17,8 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path="/contact-us" element={<ContactUsPage />} />
       <Route path="/about-us" element={<AboutUsPage />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+      <Route path="/terms-condition" element={<TermsConditionsPage />} />
     </Route>,
   ),
 );

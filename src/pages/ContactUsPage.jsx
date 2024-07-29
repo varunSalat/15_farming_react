@@ -31,7 +31,7 @@ const ContactUsPage = () => {
         link={"/contact-us"}
         title="Contact Us"
       />
-      <div className="mx-auto mt-12 w-full max-w-screen-xl">
+      <div className="mx-auto mt-12 w-full max-w-[1400px]">
         <div className="flex flex-wrap items-center justify-center gap-4 p-2">
           {contactData.map((c, i) => (
             <LinkBox key={i} dis={c.dis} icon={c.icon} name={c.name} />

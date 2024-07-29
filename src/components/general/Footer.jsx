@@ -26,6 +26,10 @@ const Footer = () => {
       link: "https://www.facebook.com/",
     },
   ];
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <footer className="bg-white py-12">
       <div className="mx-auto flex w-full max-w-[1400px] flex-col justify-between gap-12 px-4 lg:flex-row">
@@ -73,22 +77,25 @@ const Footer = () => {
               <h2 className="font-medium text-black-3">Useful Link</h2>
               <div className="mt-2 flex flex-col gap-2">
                 <Link
-                  to={"/"}
+                  onClick={() => scrollToTop()}
+                  to={"/privacy-policy"}
                   className="text-sm text-black-3 transition-three-all hover:text-black"
                 >
-                  Home
+                  Privacy Policy
                 </Link>
                 <Link
-                  to={"/about-us"}
+                  onClick={() => scrollToTop()}
+                  to={"/terms-condition"}
                   className="text-sm text-black-3 transition-three-all hover:text-black"
                 >
-                  About Us
+                  Terms & Conditions
                 </Link>
                 <Link
+                  onClick={() => scrollToTop()}
                   to={"/products"}
                   className="text-sm text-black-3 transition-three-all hover:text-black"
                 >
-                  Products
+                  Sitemap
                 </Link>
               </div>
             </div>

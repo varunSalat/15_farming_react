@@ -1,10 +1,18 @@
 import { Link } from "react-router-dom";
 import { PhoneCallIcon } from "lucide-react";
 import { navLinks } from "../../constant/constant";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+
+  useEffect(() => {
+    if (isNavOpen) {
+      document.querySelector("body").style.overflowY = "hidden";
+    } else {
+      document.querySelector("body").style.overflowY = "scroll";
+    }
+  }, [isNavOpen]);
 
   return (
     <nav className="absolute top-10 z-10 flex w-full items-center justify-between px-[3%]">
@@ -16,7 +24,7 @@ const Navbar = () => {
           />
         </Link>
         <ul
-          className={`fixed left-0 top-0 flex h-screen w-screen flex-col items-center justify-between gap-6 bg-secondary py-12 transition-six-all duration-[0.8s] lg:static lg:h-fit lg:w-fit lg:translate-y-0 lg:flex-row lg:bg-transparent ${isNavOpen ? "translate-y-0" : "-translate-y-full"}`}
+          className={`fixed left-0 top-0 flex h-screen w-screen flex-col items-center justify-around gap-6 bg-secondary py-20 transition-six-all duration-[0.8s] lg:static lg:h-fit lg:w-fit lg:translate-y-0 lg:flex-row lg:bg-transparent lg:py-0 ${isNavOpen ? "translate-y-0" : "-translate-y-full"}`}
         >
           {navLinks.map((link, i) => (
             <li key={i}>
