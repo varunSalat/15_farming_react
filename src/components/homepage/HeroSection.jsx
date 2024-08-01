@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <section className="relative m-2 h-[calc(100vh-30px)] lg:m-4 lg:min-h-[700px]">
-      <div className="h-full overflow-hidden rounded-2xl">
+      <div className="h-full w-full overflow-hidden rounded-2xl">
         <img
           src={
             "https://agrimo-demo.pbminfotech.com/html-demo/images/banner-slider-img/demo01-slide-01.jpg"
           }
-          className={`h-full object-cover`}
+          className={`h-full w-full object-cover`}
         />
       </div>
       <div className="absolute left-6 top-1/2 -translate-y-1/2 text-white lg:left-60">

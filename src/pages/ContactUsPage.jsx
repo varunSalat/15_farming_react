@@ -45,7 +45,7 @@ const ContactUsPage = () => {
                 className="h-full w-full rounded-l-2xl object-cover"
               />
             </div>
-            <div className="w-full rounded-r-2xl md:col-span-3 md:pl-12">
+            <div className="mt-4 w-full rounded-r-2xl md:col-span-3 md:mt-0 md:pl-12">
               <div className="flex min-h-[500px] flex-col items-start justify-center bg-[url('/images/other/contact.png')] bg-contain bg-bottom bg-no-repeat px-4 md:min-h-[800px]">
                 <SmallHeader text="Get to Contact us" />
                 <h2 className="my-2 max-w-[80%] text-left text-3xl font-medium md:text-5xl">

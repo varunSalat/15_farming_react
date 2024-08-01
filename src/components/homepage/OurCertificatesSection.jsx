@@ -56,7 +56,7 @@ const OurCertificatesSection = () => {
         >
           {certiList.map((img, i) => (
             <SwiperSlide key={i}>
-              <div className="testi-card relative h-[510px] bg-transparent sm:h-[370px] sm:w-[400px]">
+              <div className="testi-card relative h-[340px] bg-transparent sm:h-[370px] sm:w-[400px]">
                 <div className="h-full w-full p-8">
                   <figure className="grid h-full w-full place-items-center p-10">
                     <img src={img} alt="img" />

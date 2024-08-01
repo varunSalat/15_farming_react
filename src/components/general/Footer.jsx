@@ -1,5 +1,6 @@
 import { FacebookIcon, InstagramIcon, LinkedinIcon } from "lucide-react";
 import { Link } from "react-router-dom";
+import { scrollToTop } from "../../utils/generalFunctions";
 
 const Footer = () => {
   const socialLinks = [
@@ -17,9 +18,6 @@ const Footer = () => {
     },
   ];
 
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
   return (
     <footer className="bg-white py-12">
       <div className="mx-auto flex w-full max-w-[1400px] flex-col justify-between gap-12 px-4 lg:flex-row">
