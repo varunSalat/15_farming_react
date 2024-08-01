@@ -18,13 +18,10 @@ const Navbar = () => {
     <nav className="absolute top-10 z-10 flex w-full items-center justify-between px-[3%]">
       <div className="flex items-center gap-12 text-white">
         <Link to="/">
-          <img
-            className="w-[120px]"
-            src="https://apexriminternational.com/assets/logo_without_bg.png"
-          />
+          <img className="w-[120px]" src="/logo.png" />
         </Link>
         <ul
-          className={`fixed left-0 top-0 flex h-screen w-screen flex-col items-center justify-around gap-6 bg-secondary py-20 transition-six-all duration-[0.8s] lg:static lg:h-fit lg:w-fit lg:translate-y-0 lg:flex-row lg:bg-transparent lg:py-0 ${isNavOpen ? "translate-y-0" : "-translate-y-full"}`}
+          className={`duration-[0.8s] fixed left-0 top-0 flex h-screen w-screen flex-col items-center justify-around gap-6 bg-secondary py-20 transition-six-all lg:static lg:h-fit lg:w-fit lg:translate-y-0 lg:flex-row lg:bg-transparent lg:py-0 ${isNavOpen ? "translate-y-0" : "-translate-y-full"}`}
         >
           {navLinks.map((link, i) => (
             <li key={i}>

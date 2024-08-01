@@ -1,10 +1,4 @@
-import {
-  FacebookIcon,
-  InstagramIcon,
-  LinkedinIcon,
-  TwitterIcon,
-  XIcon,
-} from "lucide-react";
+import { FacebookIcon, InstagramIcon, LinkedinIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -31,10 +25,7 @@ const Footer = () => {
       <div className="mx-auto flex w-full max-w-[1400px] flex-col justify-between gap-12 px-4 lg:flex-row">
         <div className="max-w-[350px]">
           <figure className="w-[120px]">
-            <img
-              src="https://apexriminternational.com/assets/logo_without_bg.png"
-              alt="apexriminternational"
-            />
+            <img src="/logo.png" alt="apexriminternational" />
           </figure>
           <p className="my-2 text-black-3">
             Mauris sed molestie sem. Sed vel vestibulum elit, non accumsan
