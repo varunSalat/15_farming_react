@@ -28,13 +28,13 @@ export default {
         "danger-light": "#ffd5db",
         warning: "#FFA70B",
       },
-    },
-    transitionProperty: {
-      width: "width",
-      stroke: "stroke",
-      "three-all": "all 0.3s ease",
-      "six-all": "all 0.6s ease",
+      transitionProperty: {
+        width: "width",
+        stroke: "stroke",
+        "three-all": "all 0.3s ease",
+        "six-all": "all 0.6s ease",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };

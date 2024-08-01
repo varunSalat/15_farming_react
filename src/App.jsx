@@ -11,14 +11,18 @@ import AboutUsPage from "./pages/AboutUsPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsConditionsPage from "./pages/TermsConditionsPage";
 import ProductPage from "./pages/ProductPage";
+import SingleProductPage from "./pages/SingleProductPage";
+import OurCertificates from "./pages/OurCertificate";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<HomePage />} />
       <Route path="/products" element={<ProductPage />} />
+      <Route path="/products/:id" element={<SingleProductPage />} />
       <Route path="/contact-us" element={<ContactUsPage />} />
       <Route path="/about-us" element={<AboutUsPage />} />
+      <Route path="/our-certificates" element={<OurCertificates />} />
       <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       <Route path="/terms-condition" element={<TermsConditionsPage />} />
     </Route>,

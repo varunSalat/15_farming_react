@@ -14,10 +14,6 @@ const Footer = () => {
       link: "https://www.facebook.com/",
     },
     {
-      icon: TwitterIcon,
-      link: "https://www.facebook.com/",
-    },
-    {
       icon: LinkedinIcon,
       link: "https://www.facebook.com/",
     },
