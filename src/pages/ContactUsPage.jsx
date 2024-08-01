@@ -19,7 +19,7 @@ export const contactData = [
   {
     icon: <MapPin size={36} strokeWidth={1} />,
     name: "Our Location",
-    dis: "208,Second Floor, Suyash Solitaire, Near Podar International School, Kudasan, Gandhinagar, State: Gujarat,pincode: 382421",
+    dis: "Head Office :- 208, Second Floor , Suyash Solitaire , Near Podar International School , Kudasan , Gandhinagar , Gujarat , India",
   },
 ];
 

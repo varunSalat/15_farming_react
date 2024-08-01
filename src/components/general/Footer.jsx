@@ -96,8 +96,13 @@ const Footer = () => {
               <h2 className="font-medium text-black-3">Our Address</h2>
               <div className="mt-2 flex flex-col gap-2 text-black-3">
                 <p>
-                  208,Second Floor, Suyash Solitaire, Near Podar International
-                  School, Kudasan, Gandhinagar, State: Gujarat, pincode: 382421
+                  Head Office :- 208, Second Floor , Suyash Solitaire , Near
+                  Podar International School , Kudasan , Gandhinagar , Gujarat ,
+                  India
+                </p>
+                <p>
+                  warehouse Address :- Survey No -28 Thakorvas , Ogadnath Temple
+                  Road ,Ogadpura , Deodar Banaskantha, Gujarat , India
                 </p>
               </div>
             </div>
