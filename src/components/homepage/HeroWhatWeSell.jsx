@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 
 const HeroWhatWeSell = () => {
-  const sellList = ["Agriculture", "Farming", "Organic", "Vegetables", ""];
+  const sellList = ["Agriculture", "Farming", "Organic Spices", ""];
   return (
     <section className="my-8">
       <Marquee>

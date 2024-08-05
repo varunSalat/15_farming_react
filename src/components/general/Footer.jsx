@@ -1,20 +1,20 @@
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from "lucide-react";
+import { InstagramIcon, LinkedinIcon, YoutubeIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 import { scrollToTop } from "../../utils/generalFunctions";
 
 const Footer = () => {
   const socialLinks = [
     {
-      icon: FacebookIcon,
-      link: "https://www.facebook.com/",
+      icon: LinkedinIcon,
+      link: "https://www.linkedin.com/in/kalpesh-mali-47873a269",
     },
     {
-      icon: LinkedinIcon,
-      link: "https://www.facebook.com/",
+      icon: YoutubeIcon,
+      link: "https://youtube.com/@apexriminternational?si=bfdMeXf1Mnh_44Vu",
     },
     {
       icon: InstagramIcon,
-      link: "https://www.facebook.com/",
+      link: "https://www.instagram.com/apexriminternational",
     },
   ];
 
@@ -42,7 +42,7 @@ const Footer = () => {
                   <socialLink.icon
                     size={20}
                     className={
-                      socialLink.icon === InstagramIcon
+                      socialLink.icon !== LinkedinIcon
                         ? "text-secondary"
                         : "fill-secondary"
                     }

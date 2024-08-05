@@ -8,9 +8,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation"; // Import navigation CSS
 
 // Import required modules
-import { FreeMode, Pagination, Navigation } from "swiper/modules"; // Import Navigation
-import { SmallHeader } from "../general";
-import { QuoteIcon, StarIcon } from "lucide-react";
+// import { FreeMode, Pagination, Navigation } from "swiper/modules"; // Import Navigation
+// import { SmallHeader } from "../general";
+// import { QuoteIcon, StarIcon } from "lucide-react";
 
 const TestimonialsSection = () => {
   const testimonialsList = [
@@ -46,8 +46,8 @@ const TestimonialsSection = () => {
     },
   ];
   return (
-    <section className="mx-auto my-16 max-w-[1400px] p-4">
-      <div>
+    <section className="mx-auto max-w-[1400px]">
+      {/* <div>
         <SmallHeader text="testimonial" />
         <h1 className="mt-6 text-3xl font-medium text-black-2 md:text-5xl">
           What our customers say
@@ -85,7 +85,6 @@ const TestimonialsSection = () => {
                   <QuoteIcon />
                 </div>
                 <div className="p-10">
-                  {/* stars */}
                   <div className="flex gap-1">
                     {Array.from({ length: 5 }).map((star, i) => (
                       <StarIcon
@@ -95,11 +94,9 @@ const TestimonialsSection = () => {
                       />
                     ))}
                   </div>
-                  {/* dis */}
                   <div className="my-8 text-xl text-black-3">
                     <p>&quot;{item.dis}&quot;</p>
                   </div>
-                  {/* Customer */}
                   <div>
                     <h3 className="text-xl">{item.name}</h3>
                     <p className="text-sm text-black-3">{item.designation}</p>
@@ -109,7 +106,7 @@ const TestimonialsSection = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </div> */}
     </section>
   );
 };
