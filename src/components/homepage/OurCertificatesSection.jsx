@@ -29,43 +29,19 @@ const OurCertificatesSection = () => {
           Certificates We are Honoured
         </h1>
       </div>
-      <div className="relative mx-auto mt-20">
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={30}
-          loop={true}
-          freeMode={true}
-          autoplay={{
-            delay: 3000, // 3 seconds delay between slides
-            disableOnInteraction: false, // Continue autoplay after interactions
-          }}
-          breakpoints={{
-            // when window width is >= 600px
-            600: {
-              slidesPerView: 2, // Show only 2 slide
-              spaceBetween: 10, // Adjust space between slides if needed
-            },
-            // when window width is >= 1024px
-            1024: {
-              slidesPerView: 3, // Show 3 slides
-              spaceBetween: 20, // Adjust space between slides if needed
-            },
-          }}
-          modules={[FreeMode, Pagination, Navigation]} // Include Navigation here
-          className="mySwiper"
-        >
-          {certiList.map((img, i) => (
-            <SwiperSlide key={i}>
-              <div className="testi-card relative h-[340px] bg-transparent sm:h-[370px] sm:w-[400px]">
-                <div className="h-full w-full p-8">
-                  <figure className="grid h-full w-full place-items-center p-10">
-                    <img src={img} alt="img" />
-                  </figure>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+      <div className="relative mx-auto mt-20 flex flex-wrap gap-x-8 gap-y-12">
+        {certiList.map((img, i) => (
+          <div
+            key={i}
+            className="testi-card relative h-[340px] overflow-hidden bg-transparent sm:h-[370px] sm:w-[400px]"
+          >
+            <div className="h-full w-full p-8">
+              <figure className="grid h-full w-full place-items-center p-10">
+                <img src={img} alt="img" />
+              </figure>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
