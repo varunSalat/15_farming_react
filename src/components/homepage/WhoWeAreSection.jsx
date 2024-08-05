@@ -2,11 +2,12 @@ import { FenceIcon, ShieldCheckIcon } from "lucide-react";
 import { SmallHeader } from "../general";
 const WhoWeAreSection = () => {
   return (
-    <section className="mx-auto my-16 flex max-w-[1400px] flex-col items-center justify-between gap-4 p-4 lg:flex-row">
+    <section className="mx-auto my-16 flex max-w-[1400px] flex-col items-start justify-between gap-4 p-4 lg:flex-row">
       <div className="relative w-full max-w-[600px] overflow-hidden rounded-xl bg-danger lg:w-1/2">
         <img
-          src="https://agrimo-demo.pbminfotech.com/html-demo/images/homepage-1/bg/img-01.jpg"
-          alt=""
+          src="/images/other/who we are.jpg"
+          alt="who we are"
+          className="max-h-[550px] w-full object-cover object-center"
         />
         <div className="absolute bottom-0 right-0 z-10 rounded-tl-xl bg-primary p-6">
           <div className="text-center">
@@ -22,19 +23,32 @@ const WhoWeAreSection = () => {
         <SmallHeader text="Who We Are" />
         <div>
           <h1 className="my-4 text-4xl font-medium text-black-2">
-            Apexrim International is the one of the <br /> Leading global
-            organic farm.
+            Apex Rim International is the one of the <br /> Leading global
+            Spices and Agriculture Exporter.
           </h1>
-          <p className="text-black-3">
-            Based in India, we handle all the processes from processing to
-            packaging to deliver the quality products grown from the best
-            fertile soil of Gujarat to foreign markets. <br />
-            <br /> Our identity is the quality of our various products with
-            which we do not compromise and want to farm to foreign i.e. process
-            and package quality products and deliver them directly to the global
-            market at competitive rates.
+          <p className="text-black">
+            <strong>Apex Rim International</strong> is an Spices and Agriculture
+            exporter of{" "}
+            <strong>
+              Cumin Seed , Fennal Seed , Psyllium Seed , Psyllium Husk , Dill
+              Seed , Coriander Seed , Fenugreek Seed , Turmeric Powder ,
+              Turmeric Finger , Corom Seed ( Ajwan Seed ), Peanut Seed , Hulled
+              Sesame seed , Natural Sesame seed , Mustard Seed , Castor Seed ,
+              Ground nut , ensure rich , Healthy oil seed, Pearl millet, White
+              Sorghum and Wheat.
+            </strong>
+            <br />
+            <br /> We are well supported by our team of highly skilled vendors
+            who possess rich industry experience in their respective domains of
+            business operations. <br />
+            <br /> We have a team of highly experienced professionals, and their
+            strong support makes us able to provide the utmost level of
+            satisfaction to our clients. <br />
+            <br /> We believe in continuously improving our products through
+            scientific research to deliver effective solutions to organic
+            farmers for increasing the yield of their lands.
           </p>
-          <div className="mt-8 flex justify-between gap-6">
+          {/* <div className="mt-8 flex justify-between gap-6">
             <div className="w-1/2">
               <FenceIcon size={90} className="text-secondary" strokeWidth={1} />
               <h3 className="my-2 text-2xl font-medium text-black-2">
@@ -59,7 +73,7 @@ const WhoWeAreSection = () => {
                 majority have suffered.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

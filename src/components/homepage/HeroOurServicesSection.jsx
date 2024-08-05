@@ -41,7 +41,9 @@ const HeroOurServicesSection = () => {
                   {service.name}
                 </h2>
               </div>
-              <p className="mt-2 max-w-[300px] text-black-3">{service.dis}</p>
+              <p className="mt-2 max-w-[300px] text-justify text-black-3">
+                {service.dis}
+              </p>
               <div className="absolute -bottom-2 right-2 grid h-12 w-12 place-items-center rounded-full bg-primary text-black-3 transition-three-all group-hover:bg-black-3 group-hover:text-white">
                 <ArrowUpRight />
               </div>

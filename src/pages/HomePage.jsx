@@ -15,7 +15,7 @@ const HomePage = () => {
     <main>
       <HeroSection />
       {/* What we offer section */}
-      <HeroWwoSection />
+      {/* <HeroWwoSection /> */}
       {/* Who We Are */}
       <WhoWeAreSection />
       {/* What we sell marque effect */}
