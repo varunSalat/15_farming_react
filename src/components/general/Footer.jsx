@@ -25,9 +25,13 @@ const Footer = () => {
           <figure className="w-[120px]">
             <img src="/logo.png" alt="apexriminternational" />
           </figure>
-          <p className="my-2 text-black-3">
-            Mauris sed molestie sem. Sed vel vestibulum elit, non accumsan
-            risus. In vitae sapien viverra est Duo ei ullum inani senserit.
+          <p className="my-2 text-justify text-black-3">
+            At Apex Rim International, we specialize in exporting the finest
+            spices and agricultural products from around the world. Our
+            commitment to quality and sustainability ensures that every shipment
+            meets the highest standards. With a global network and a passion for
+            excellence, we deliver unparalleled flavor and freshness to our
+            clients.
           </p>
           <div className="mt-6 flex gap-4">
             {socialLinks.map((socialLink, i) => (

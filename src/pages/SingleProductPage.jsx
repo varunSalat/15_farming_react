@@ -46,10 +46,10 @@ const SingleProductPage = () => {
             alt={data.name}
             className="aspect-video h-full w-full max-w-xl rounded-md object-cover shadow-md"
           />
-          <p
+          {/* <p
             className="text-justify text-lg font-medium leading-8"
             dangerouslySetInnerHTML={{ __html: data.description }}
-          ></p>
+          ></p> */}
           <h3 className="mt-6 text-2xl font-semibold text-gray-700">
             Physical Property
           </h3>
@@ -66,10 +66,10 @@ const SingleProductPage = () => {
             <li>{data.solubility}</li>
             <li>{data.density}</li>
           </ul>
-          <h3 className="mt-6 text-2xl font-semibold text-gray-700">
+          {/* <h3 className="mt-6 text-2xl font-semibold text-gray-700">
             Other Details
           </h3>
-          <p className="text-justify text-lg">{data.details}</p>
+          <p className="text-justify text-lg">{data.details}</p> */}
         </div>
       </div>
 

@@ -23,7 +23,7 @@ const HomePage = () => {
       {/* OUR SERVICES */}
       <HeroOurServicesSection />
       {/* Grow Naturally */}
-      <GrowNaturallySection />
+      {/* <GrowNaturallySection /> */}
       {/* Testimonial Section */}
       <TestimonialsSection />
       {/* Healthy Life */}

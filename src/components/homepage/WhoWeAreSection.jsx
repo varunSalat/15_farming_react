@@ -22,9 +22,10 @@ const WhoWeAreSection = () => {
       <div className="w-full lg:w-1/2">
         <SmallHeader text="Who We Are" />
         <div>
-          <h1 className="my-4 text-4xl font-medium text-black-2">
-            Apex Rim International is the one of the <br /> Leading global
-            Spices and Agriculture Exporter.
+          <h1 className="my-4 text-3xl font-bold text-black-2 md:text-4xl">
+            Apex Rim International is the one of the{" "}
+            <br className="hidden md:block" /> Leading global Spices and
+            Agriculture Exporter.
           </h1>
           <p className="text-black">
             <strong>Apex Rim International</strong> is an Spices and Agriculture

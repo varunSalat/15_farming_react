@@ -43,16 +43,16 @@ const NavbarTest = () => {
 
   const categories = [
     {
+      name: "Spices",
+      products: data.spices,
+    },
+    {
       name: "Oil Seeds",
       products: data.seeds,
     },
     {
       name: "Grains",
       products: data.grains,
-    },
-    {
-      name: "Spices",
-      products: data.spices,
     },
   ];
 
@@ -109,7 +109,7 @@ const NavbarTest = () => {
           <li className="flex items-center justify-start gap-x-4">
             <Link
               className="text-sm font-semibold uppercase transition-three-all hover:text-primary"
-              to="/about"
+              to="/about-us"
               onClick={() => setIsNavOpen(false)}
             >
               About
@@ -119,7 +119,7 @@ const NavbarTest = () => {
           <li className="flex items-center justify-start gap-x-4">
             <Link
               className="text-sm font-semibold uppercase transition-three-all hover:text-primary"
-              to="/contact"
+              to="/contact-us"
               onClick={() => setIsNavOpen(false)}
             >
               Contact

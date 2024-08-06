@@ -36,17 +36,13 @@ const HealthyLifeSection = () => {
             <div className="relative grid h-20 w-20 place-items-center rounded-full bg-white before:absolute before:h-[115%] before:w-[115%] before:rounded-full before:border before:border-white">
               <p className="text-2xl">100%</p>
             </div>
-            <h2 className="text-2xl text-black-3">
-              Eco Farms <br /> Worldwide
-            </h2>
+            <h2 className="text-2xl text-black-3">Organic</h2>
           </div>
           <div className="flex items-center gap-4">
             <div className="relative grid h-20 w-20 place-items-center rounded-full bg-white before:absolute before:h-[115%] before:w-[115%] before:rounded-full before:border before:border-white">
               <p className="text-2xl">100%</p>
             </div>
-            <h2 className="text-2xl text-black-3">
-              Eco Farms <br /> Worldwide
-            </h2>
+            <h2 className="text-2xl text-black-3">Quality Seed</h2>
           </div>
         </div>
       </div>

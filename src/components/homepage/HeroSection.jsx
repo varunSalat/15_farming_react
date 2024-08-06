@@ -16,7 +16,7 @@ const HeroSection = () => {
     "/images/products/ground nut.jpg",
     "/images/products/hulled seed.jpg",
     "/images/products/mustard seed.jpg",
-    "/images/products/peer millet.webp",
+    "/images/products/pear millet.webp",
     "/images/products/penut seed.jpg",
     "/images/products/psyllium seed.png",
     "/images/products/wheat.jpg",
