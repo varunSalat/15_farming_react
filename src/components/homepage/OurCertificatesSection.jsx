@@ -14,12 +14,12 @@ import { QuoteIcon, StarIcon } from "lucide-react";
 
 const OurCertificatesSection = () => {
   const certiList = [
-    "https://apexriminternational.com/assets/cert/apeda.png",
-    "https://apexriminternational.com/assets/cert/dgft.png",
-    "https://apexriminternational.com/assets/cert/fssai.png",
-    "https://apexriminternational.com/assets/cert/iso.png",
-    "https://apexriminternational.com/assets/cert/sgs.png",
-    "https://apexriminternational.com/assets/cert/spicesBoard.png",
+    "/images/cert/apeda.png",
+    "/images/cert/dgft.png",
+    "/images/cert/fssai.png",
+    "/images/cert/iso.png",
+    "/images/cert/sgs.png",
+    "/images/cert/spicesBoard.png",
   ];
   return (
     <section className="mx-auto my-16 max-w-[1400px] p-4">

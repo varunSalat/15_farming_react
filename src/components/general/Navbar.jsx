@@ -125,6 +125,16 @@ const NavbarTest = () => {
               Contact
             </Link>
           </li>
+          <div className="hidden h-2 w-2 rounded-full bg-primary lg:block" />
+          <li className="flex items-center justify-start gap-x-4">
+            <Link
+              className="text-sm font-semibold uppercase transition-three-all hover:text-primary"
+              to="/our-certificates"
+              onClick={() => setIsNavOpen(false)}
+            >
+              Our Certificates
+            </Link>
+          </li>
         </ul>
       </div>
       <BurgerBtn setIsNavOpen={setIsNavOpen} isNavOpen={isNavOpen} />
